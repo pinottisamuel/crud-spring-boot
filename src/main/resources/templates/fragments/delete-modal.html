@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/css/style.css" rel="stylesheet" />
+<script src="/js/java-script.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" th:fragment="delete-modal">
+		<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h5>Deseja realmente deletar o produto?</h5>
+					<input id="id-produto" type="hidden" name="id"/> 
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+					<button type="button" th:onclick="${'confirmDelete()'}"class="btn btn-danger">Sim</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

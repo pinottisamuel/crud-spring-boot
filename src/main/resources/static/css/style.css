@@ -1,0 +1,82 @@
+#form-button{
+	margin-left: 0.8px;
+}
+
+.navbar-brand{
+	margin-bottom: 10px;
+}
+
+.form-signin{
+	max-width: 50%;
+	padding: 15px;
+	margin: auto;
+}
+
+.panel-default .panel-heading{
+	color: #777;
+    background-color: #ffff;
+}
+
+.navbar-default {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #ddd;
+}
+
+.btn-primary{
+	padding: 5px;
+}
+
+.form-signin-heading{
+	color: #777;
+}
+
+.validation-message{
+	color: #ef2929;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.message-success{
+	color: #3c763d;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#edit{
+	color: #ef2929;
+	background-color: transparent;
+	border: none;
+	margin: 2px;
+}
+
+#edit:hover{
+	color: #cc0000;
+}
+
+#trash{
+	color: #888a85;
+	background-color: transparent;
+	border: none;
+	margin: 2px;
+}
+
+#trash:hover{
+	color: #555753;
+}
+
+
+
+
+
